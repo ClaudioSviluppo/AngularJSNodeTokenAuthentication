@@ -1,0 +1,17 @@
+<p>register works!</p>
+<div id="fullscreen_bg" class="fullscreen_bg"></div>
+
+<div class="container">
+
+	<form class="form-signin">
+		<h1 class="form-signin-heading text-muted">Sign In</h1>
+		<input type="text" class="form-control" placeholder="Email address" required="" autofocus="" #inputEmail>
+		<input type="password" class="form-control" placeholder="Password" required="" #pwd1>
+        <input type="password" class="form-control" placeholder="Confirm Password" required="" #pwd2>
+		<button class="btn btn-lg btn-primary btn-block" type="submit" (click)="log(inputEmail.value,pwd1.value,pwd2.value)">
+			Sign In
+		</button>
+	</form>
+
+</div>
+
